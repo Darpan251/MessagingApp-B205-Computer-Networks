@@ -1,0 +1,94 @@
+Jun 19, 2026 3:51:29 PM chatapp.server.ChatServer start
+INFO: Server starting on port 5000
+Jun 19, 2026 3:51:54 PM chatapp.server.ChatServer start
+INFO: New client connected from /127.0.0.1
+Jun 19, 2026 3:51:59 PM chatapp.server.ChatServer registerUser
+INFO: john registered.
+Jun 19, 2026 3:51:59 PM chatapp.server.ChatServer joinRoom
+INFO: john joined/switched to room general
+Jun 19, 2026 3:52:18 PM chatapp.server.ChatServer start
+INFO: New client connected from /127.0.0.1
+Jun 19, 2026 3:52:27 PM chatapp.server.ChatServer registerUser
+INFO: jonson registered.
+Jun 19, 2026 3:52:27 PM chatapp.server.ChatServer joinRoom
+INFO: jonson joined/switched to room general
+Jun 19, 2026 3:52:42 PM chatapp.server.ChatServer start
+INFO: New client connected from /127.0.0.1
+Jun 19, 2026 3:52:56 PM chatapp.server.ChatServer registerUser
+INFO: jack registered.
+Jun 19, 2026 3:52:56 PM chatapp.server.ChatServer joinRoom
+INFO: jack joined/switched to room general
+Jun 19, 2026 3:53:40 PM chatapp.server.ChatServer sendMessageToCurrentRoom
+INFO: [general] jonson: Hi Alice, Bob is connected.
+Jun 19, 2026 3:54:21 PM chatapp.server.ChatServer sendMessageToCurrentRoom
+INFO: [general] jonson: HI John, jonson is conneccted.
+Jun 19, 2026 3:54:42 PM chatapp.server.ChatServer sendMessageToCurrentRoom
+INFO: [general] jack: Hi John, jack is Conneccted.
+Jun 19, 2026 3:59:18 PM chatapp.server.ChatServer createRoom
+INFO: jack created room project
+Jun 19, 2026 3:59:18 PM chatapp.server.ChatServer joinRoom
+INFO: jack joined/switched to room project
+Jun 19, 2026 3:59:40 PM chatapp.server.ChatServer inviteUser
+INFO: jack invited john to room project
+Jun 19, 2026 3:59:52 PM chatapp.server.ChatServer joinRoom
+INFO: john joined/switched to room project
+Jun 19, 2026 3:59:58 PM chatapp.server.ChatServer sendMessageToCurrentRoom
+INFO: [project] john: ?users
+Jun 19, 2026 4:00:16 PM chatapp.server.ChatServer sendMessageToCurrentRoom
+INFO: [project] john: JI
+Jun 19, 2026 4:00:22 PM chatapp.server.ChatServer sendMessageToCurrentRoom
+INFO: [project] jack: Hello
+Jun 19, 2026 4:00:35 PM chatapp.server.ChatServer sendMessageToCurrentRoom
+INFO: [project] jack: did you done the client side configaration?
+Jun 19, 2026 4:00:39 PM chatapp.server.ChatServer sendMessageToCurrentRoom
+INFO: [project] john: Yes
+Jun 19, 2026 4:00:46 PM chatapp.server.ChatServer sendMessageToCurrentRoom
+INFO: [general] jonson: is anyone is there ?
+Jun 20, 2026 1:42:56 AM chatapp.server.ChatServer start
+INFO: Server starting on port 5000
+Jun 20, 2026 2:11:01 AM chatapp.server.ChatServer start
+INFO: New client connected from /127.0.0.1
+Jun 20, 2026 2:11:04 AM chatapp.server.ChatServer start
+INFO: New client connected from /127.0.0.1
+Jun 20, 2026 2:11:07 AM chatapp.server.ChatServer start
+INFO: New client connected from /127.0.0.1
+Jun 20, 2026 2:11:13 AM chatapp.server.ChatServer registerUser
+INFO: john registered.
+Jun 20, 2026 2:11:13 AM chatapp.server.ChatServer joinRoom
+INFO: john joined/switched to room general
+Jun 20, 2026 2:11:17 AM chatapp.server.ChatServer registerUser
+INFO: maria registered.
+Jun 20, 2026 2:11:17 AM chatapp.server.ChatServer joinRoom
+INFO: maria joined/switched to room general
+Jun 20, 2026 2:11:23 AM chatapp.server.ChatServer registerUser
+INFO: devid registered.
+Jun 20, 2026 2:11:23 AM chatapp.server.ChatServer joinRoom
+INFO: devid joined/switched to room general
+Jun 20, 2026 2:11:27 AM chatapp.server.ChatServer sendMessageToCurrentRoom
+INFO: [general] john: HII
+Jun 20, 2026 2:11:31 AM chatapp.server.ChatServer sendMessageToCurrentRoom
+INFO: [general] maria: Hello
+Jun 20, 2026 2:11:44 AM chatapp.server.ChatServer joinRoom
+INFO: john joined/switched to room study
+Jun 20, 2026 2:11:49 AM chatapp.server.ChatServer sendMessageToCurrentRoom
+INFO: [study] john: HI
+Jun 20, 2026 2:12:06 AM chatapp.server.ChatServer inviteUser
+INFO: john invited maria to room study
+Jun 20, 2026 2:12:12 AM chatapp.server.ChatServer joinRoom
+INFO: maria joined/switched to room study
+Jun 20, 2026 2:12:15 AM chatapp.server.ChatServer sendMessageToCurrentRoom
+INFO: [study] john: Hello
+Jun 20, 2026 2:12:20 AM chatapp.server.ChatServer sendMessageToCurrentRoom
+INFO: [general] devid: is anyone is there
+Jun 20, 2026 2:12:23 AM chatapp.server.ChatServer sendMessageToCurrentRoom
+INFO: [study] john: NO
+Jun 20, 2026 2:12:25 AM chatapp.server.ChatServer sendMessageToCurrentRoom
+INFO: [study] maria: OKH
+Jun 20, 2026 5:02:03 AM chatapp.server.ChatServer createRoom
+INFO: maria created room gaming
+Jun 20, 2026 5:02:03 AM chatapp.server.ChatServer joinRoom
+INFO: maria joined/switched to room gaming
+Jun 20, 2026 5:02:28 AM chatapp.server.ChatServer inviteUser
+INFO: maria invited devid to room gaming
+Jun 20, 2026 5:02:48 AM chatapp.server.ChatServer joinRoom
+INFO: devid joined/switched to room gaming
